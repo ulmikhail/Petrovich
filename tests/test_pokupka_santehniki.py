@@ -17,7 +17,7 @@ def test_buy_product(set_group):
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
     driver = webdriver.Chrome(executable_path='C:\\Users\\User\\PycharmProjects\\resource\\chromedriver.exe', chrome_options=options)
     driver.set_window_size(1400, 1300)
-    print('Start test')
+    print('Начало теста покупки товара')
 
     mp = Main_page(driver)
     mp.enter_petrovich()
@@ -43,5 +43,5 @@ def test_buy_product(set_group):
     fp = Final_page(driver)
     fp.cancel_orders()
 
-    print('Finish test')
+    print('Окончание теста покупки товара')
     time.sleep(5)

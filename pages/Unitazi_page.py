@@ -9,11 +9,6 @@ from base.base_class import Base
 
 class Unitazi_page(Base):
 
-
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
         ### Lokators
 
     price_do = '//*[@id="pt-input-id-2"]'

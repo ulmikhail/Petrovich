@@ -11,10 +11,6 @@ from selenium.webdriver.common.action_chains import ActionChains
 class Final_page(Base):
 
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
         ### Lokators
 
     cancel_order = '//*[@id="jsx-pet-app"]/div/div/div[2]/div[1]/div[1]/div/button[2]/span'

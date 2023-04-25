@@ -10,11 +10,6 @@ from base.base_class import Base
 class Main_page(Base):
     url = 'https://petrovich.ru/'
 
-
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
         ### Lokators
 
     catalog = '//*[@id="jsx-header"]/header/div[3]/div/div/aside/button'

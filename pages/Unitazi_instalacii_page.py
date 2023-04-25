@@ -7,12 +7,8 @@ from selenium.webdriver.support import expected_conditions as ES
 from base.base_class import Base
 
 
-
 class Unitazi_instalacii_page(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
 
         ### Lokators
 
